@@ -69,14 +69,10 @@ If you’ve installed the plugin, but don’t see any changes:
 - Run `qlmanage -r` in the Terminal. (This will restart QuickLook, which reloads all plugins.)
 
 
-## Why “QLNodeJS”?
-
-Because I was listening to [Adam and Joe](http://www.bbc.co.uk/blogs/adamandjoe/2009/06/test-1.shtml) when I first wrote it.
-
-
 ## Authors
 
 **Original author:** Duncan Robertson
+**NodeJS defaults:** James Womack
 
 Special thanks to the following people for submitting patches:
 
