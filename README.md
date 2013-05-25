@@ -1,11 +1,11 @@
-# QuicklookStephen
+# QuickLook Node.js
 
-QLStephen is a QuickLook plugin that lets you view plain text files without a file extension. Files like:
+QuickLookNodeJS is a QuickLook plugin that lets you view plain text files, focused on NodeJS dev, without a file extension. Files like:
 
     README
     INSTALL
-    CapFile
-    CHANGELOG
+    coffee
+    iced
     etc...
 
 You can also customise the plugin to determine which files it previews. See [*Customizing white/black lists*](#customizing-whiteblack-lists---step-by-step), below.
@@ -16,8 +16,8 @@ You can also customise the plugin to determine which files it previews. See [*Cu
 
 ### Pre-compiled
 
-* [Download the latest version of QuickLookStephen](
-  https://github.com/downloads/whomwah/qlstephen/QLStephen.qlgenerator.zip)
+* [Download the latest version of QuickLookNodeJS](
+  https://github.com/downloads/whomwah/qlnodejs/QLNodeJS.qlgenerator.zip)
 * Unzip 
 * Copy the file into `/Library/QuickLook` or `~/Library/QuickLook` 
   (You can create the `QuickLook` folder if it doesn’t exist)
@@ -25,7 +25,7 @@ You can also customise the plugin to determine which files it previews. See [*Cu
 
 ### Manually Compiled
 
-Compliling the project yourself? Just copy the generated `QLStephen.qlgenerator` 
+Compliling the project yourself? Just copy the generated `QLNodeJS.qlgenerator` 
 file into the relevant `QuickLook` folder (as above).
 
 
@@ -38,7 +38,7 @@ Want to change the current behaviour?  Just follow the instructions below.
 Plists used here are not same as user defaults, so you won’t find 
 them in `~/Library/Preferences`. Instead, you need to edit the plist 
 files inside the bundle—in this case, the plugin file: 
-`QLStepehen.qlgenerator`.
+`QLNodeJS.qlgenerator`.
 
 
 #### 1. Show the contents of the bundle.
@@ -54,9 +54,9 @@ If you installed the plugin, it should be in `~/Library/QuickLook/`.
 
 Plist files:
 
-* **`QLStephenWhiteList.plist`** : files with these names will **always** be previewed
-* **`QLStephenExtensionsBlackList.plist`** : files with these extensions will **never** be previewed
-* **`QLStephenDirectoriesBlackList.plist`** : files contained by these directories will **never** be previewed
+* **`QLNodeJSWhiteList.plist`** : files with these names will **always** be previewed
+* **`QLNodeJSExtensionsBlackList.plist`** : files with these extensions will **never** be previewed
+* **`QLNodeJSDirectoriesBlackList.plist`** : files contained by these directories will **never** be previewed
 
 
 ## Trouble?
@@ -64,12 +64,12 @@ Plist files:
 If you’ve installed the plugin, but don’t see any changes:
 
 - Make sure you are editing (a) the correct plist of (b) the correct bundle. 
-  (For example, you might have two `QLStephen` plugins. It’s possible the plugin in 
+  (For example, you might have two `QLNodeJS` plugins. It’s possible the plugin in 
    another directory—perhaps `/Library/QuickLook/`—is what is being read.)
 - Run `qlmanage -r` in the Terminal. (This will restart QuickLook, which reloads all plugins.)
 
 
-## Why “QLStephen”?
+## Why “QLNodeJS”?
 
 Because I was listening to [Adam and Joe](http://www.bbc.co.uk/blogs/adamandjoe/2009/06/test-1.shtml) when I first wrote it.
 
