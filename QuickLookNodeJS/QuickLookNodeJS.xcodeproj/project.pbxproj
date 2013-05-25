@@ -10,15 +10,15 @@
 		2C05A19C06CAA52B00D84F6F /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C05A19B06CAA52B00D84F6F /* GeneratePreviewForURL.m */; };
 		4F98DDDF156E04F500C17A7F /* URLChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F98DDDD156E04F500C17A7F /* URLChecker.h */; };
 		4F98DDE0156E04F500C17A7F /* URLChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F98DDDE156E04F500C17A7F /* URLChecker.m */; };
-		4F98DDE3156E0C9F00C17A7F /* QLStephenWhiteList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F98DDE2156E0C9F00C17A7F /* QLStephenWhiteList.plist */; };
-		4F98DDE5156E0CB500C17A7F /* QLStephenExtensionsBlackList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F98DDE4156E0CB500C17A7F /* QLStephenExtensionsBlackList.plist */; };
-		4F98DDE7156E0F0A00C17A7F /* QLStephenDirectoriesBlackList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F98DDE6156E0F0A00C17A7F /* QLStephenDirectoriesBlackList.plist */; };
+		4F98DDE3156E0C9F00C17A7F /* QLNodeJSWhiteList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F98DDE2156E0C9F00C17A7F /* QLNodeJSWhiteList.plist */; };
+		4F98DDE5156E0CB500C17A7F /* QLNodeJSExtensionsBlackList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F98DDE4156E0CB500C17A7F /* QLNodeJSExtensionsBlackList.plist */; };
+		4F98DDE7156E0F0A00C17A7F /* QLNodeJSDirectoriesBlackList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F98DDE6156E0F0A00C17A7F /* QLNodeJSDirectoriesBlackList.plist */; };
 		61E3BCFB0870B4F2002186A0 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E3BCFA0870B4F2002186A0 /* GenerateThumbnailForURL.m */; };
 		8D576312048677EA00EA77CD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB77B6FE84183AC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
 		8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */; };
 		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
 		AE02F6EB0EDDFA6400CBA17D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE02F6EA0EDDFA6400CBA17D /* Cocoa.framework */; };
-		AEF4F27A0EDD58F800A55543 /* QLStephen.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D576316048677EA00EA77CD /* QLStephen.qlgenerator */; };
+		AEF4F27A0EDD58F800A55543 /* QLNodeJS.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D576316048677EA00EA77CD /* QLNodeJS.qlgenerator */; };
 		C86B05270671AA6E00DD9006 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86B05260671AA6E00DD9006 /* CoreServices.framework */; };
 		F28CFBFD0A3EC0AF000ABFF5 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */; };
 		F28CFC030A3EC0C6000ABFF5 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */; };
@@ -31,7 +31,7 @@
 			dstPath = "~/Library/Quicklook";
 			dstSubfolderSpec = 0;
 			files = (
-				AEF4F27A0EDD58F800A55543 /* QLStephen.qlgenerator in CopyFiles */,
+				AEF4F27A0EDD58F800A55543 /* QLNodeJS.qlgenerator in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,11 +44,11 @@
 		2C05A19B06CAA52B00D84F6F /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		4F98DDDD156E04F500C17A7F /* URLChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLChecker.h; sourceTree = "<group>"; };
 		4F98DDDE156E04F500C17A7F /* URLChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLChecker.m; sourceTree = "<group>"; };
-		4F98DDE2156E0C9F00C17A7F /* QLStephenWhiteList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QLStephenWhiteList.plist; sourceTree = "<group>"; };
-		4F98DDE4156E0CB500C17A7F /* QLStephenExtensionsBlackList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QLStephenExtensionsBlackList.plist; sourceTree = "<group>"; };
-		4F98DDE6156E0F0A00C17A7F /* QLStephenDirectoriesBlackList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QLStephenDirectoriesBlackList.plist; sourceTree = "<group>"; };
+		4F98DDE2156E0C9F00C17A7F /* QLNodeJSWhiteList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QLNodeJSWhiteList.plist; sourceTree = "<group>"; };
+		4F98DDE4156E0CB500C17A7F /* QLNodeJSExtensionsBlackList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QLNodeJSExtensionsBlackList.plist; sourceTree = "<group>"; };
+		4F98DDE6156E0F0A00C17A7F /* QLNodeJSDirectoriesBlackList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QLNodeJSDirectoriesBlackList.plist; sourceTree = "<group>"; };
 		61E3BCFA0870B4F2002186A0 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
-		8D576316048677EA00EA77CD /* QLStephen.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLStephen.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D576316048677EA00EA77CD /* QLNodeJS.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLNodeJS.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AE02F6EA0EDDFA6400CBA17D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		C86B05260671AA6E00DD9006 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
@@ -75,7 +75,7 @@
 		089C166AFE841209C02AAC07 /* QuickLookStephen */ = {
 			isa = PBXGroup;
 			children = (
-				08FB77AFFE84173DC02AAC07 /* QuickLookStephen */,
+				08FB77AFFE84173DC02AAC07 /* QuickLookNodeJS */,
 				089C1671FE841209C02AAC07 /* Frameworks */,
 				19C28FB6FE9D52B211CA2CBB /* Products */,
 			);
@@ -103,26 +103,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		08FB77AFFE84173DC02AAC07 /* QuickLookStephen */ = {
+		08FB77AFFE84173DC02AAC07 /* QuickLookNodeJS */ = {
 			isa = PBXGroup;
 			children = (
 				61E3BCFA0870B4F2002186A0 /* GenerateThumbnailForURL.m */,
 				2C05A19B06CAA52B00D84F6F /* GeneratePreviewForURL.m */,
 				4F98DDDD156E04F500C17A7F /* URLChecker.h */,
 				4F98DDDE156E04F500C17A7F /* URLChecker.m */,
-				4F98DDE2156E0C9F00C17A7F /* QLStephenWhiteList.plist */,
-				4F98DDE4156E0CB500C17A7F /* QLStephenExtensionsBlackList.plist */,
-				4F98DDE6156E0F0A00C17A7F /* QLStephenDirectoriesBlackList.plist */,
+				4F98DDE2156E0C9F00C17A7F /* QLNodeJSWhiteList.plist */,
+				4F98DDE4156E0CB500C17A7F /* QLNodeJSExtensionsBlackList.plist */,
+				4F98DDE6156E0F0A00C17A7F /* QLNodeJSDirectoriesBlackList.plist */,
 				08FB77B6FE84183AC02AAC07 /* main.c */,
 				089C167CFE841241C02AAC07 /* Supporting Files */,
 			);
-			name = QuickLookStephen;
+			name = QuickLookNodeJS;
 			sourceTree = "<group>";
 		};
 		19C28FB6FE9D52B211CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D576316048677EA00EA77CD /* QLStephen.qlgenerator */,
+				8D576316048677EA00EA77CD /* QLNodeJS.qlgenerator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,9 +141,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8D57630D048677EA00EA77CD /* QuickLookStephen */ = {
+		8D57630D048677EA00EA77CD /* QuickLookNodeJS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CA3261E0896AD4900168862 /* Build configuration list for PBXNativeTarget "QuickLookStephen" */;
+			buildConfigurationList = 2CA3261E0896AD4900168862 /* Build configuration list for PBXNativeTarget "QuickLookNodeJS" */;
 			buildPhases = (
 				8D57630E048677EA00EA77CD /* Headers */,
 				8D57630F048677EA00EA77CD /* Resources */,
@@ -156,10 +156,10 @@
 			);
 			dependencies = (
 			);
-			name = QuickLookStephen;
+			name = QuickLookNodeJS;
 			productInstallPath = /Library/QuickLook;
 			productName = QuickLookStephen;
-			productReference = 8D576316048677EA00EA77CD /* QLStephen.qlgenerator */;
+			productReference = 8D576316048677EA00EA77CD /* QLNodeJS.qlgenerator */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +171,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Duncan Robertson";
 			};
-			buildConfigurationList = 2CA326220896AD4900168862 /* Build configuration list for PBXProject "QuickLookStephen" */;
+			buildConfigurationList = 2CA326220896AD4900168862 /* Build configuration list for PBXProject "QuickLookNodeJS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -182,7 +182,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D57630D048677EA00EA77CD /* QuickLookStephen */,
+				8D57630D048677EA00EA77CD /* QuickLookNodeJS */,
 			);
 		};
 /* End PBXProject section */
@@ -193,9 +193,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */,
-				4F98DDE3156E0C9F00C17A7F /* QLStephenWhiteList.plist in Resources */,
-				4F98DDE5156E0CB500C17A7F /* QLStephenExtensionsBlackList.plist in Resources */,
-				4F98DDE7156E0F0A00C17A7F /* QLStephenDirectoriesBlackList.plist in Resources */,
+				4F98DDE3156E0C9F00C17A7F /* QLNodeJSWhiteList.plist in Resources */,
+				4F98DDE5156E0CB500C17A7F /* QLNodeJSExtensionsBlackList.plist in Resources */,
+				4F98DDE7156E0F0A00C17A7F /* QLNodeJSDirectoriesBlackList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +244,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Library/QuickLook;
-				PRODUCT_NAME = QLStephen;
+				PRODUCT_NAME = QLNodeJS;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = qlgenerator;
 			};
@@ -257,7 +257,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Library/QuickLook;
-				PRODUCT_NAME = QLStephen;
+				PRODUCT_NAME = QLNodeJS;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = qlgenerator;
 			};
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CA3261E0896AD4900168862 /* Build configuration list for PBXNativeTarget "QuickLookStephen" */ = {
+		2CA3261E0896AD4900168862 /* Build configuration list for PBXNativeTarget "QuickLookNodeJS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CA3261F0896AD4900168862 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CA326220896AD4900168862 /* Build configuration list for PBXProject "QuickLookStephen" */ = {
+		2CA326220896AD4900168862 /* Build configuration list for PBXProject "QuickLookNodeJS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CA326230896AD4900168862 /* Debug */,
